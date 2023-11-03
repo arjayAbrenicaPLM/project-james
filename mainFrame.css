@@ -8,6 +8,8 @@ body {
     border-radius: 8px;
     padding: 14px 40px;
     border: 2px solid #30096e;
+    text-align: justify;
+    text-justify: inter-word;
 }
 p{
     font-size: larger;
@@ -15,7 +17,15 @@ p{
 .center {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.center-image {
+    margin: 0;
+    position: absolute;
+    top: 80%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
